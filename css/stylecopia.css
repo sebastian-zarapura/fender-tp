@@ -1,0 +1,234 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* inicion del header*/
+#logo{
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link{
+    color:rgb(222, 223, 224);
+    font-family: 'Archivo', sans-serif;
+}
+.nav-link:hover{
+    color:rgb(105, 104, 105)
+}
+.titulo-h1{
+    color:rgb(236, 31, 31);
+    font-size: 110%;
+    text-align: center;
+    margin:0;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner-fender2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d-item{
+    height: 500px; 
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+
+}
+/* Fin del Header*/
+
+/* Inicio del main index*/
+main{
+    background-color: rgb(119, 119, 119);
+}
+
+.img-producto{
+    width: 20rem;
+}
+.elemento-padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-producto{
+    transition: all 500ms;
+
+}
+.card-producto:hover{
+    transform: scale(1.2);
+
+}
+.img-black{
+    width: 20rem;
+}
+.elemento-padre2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-h3 {
+    color:rgb(222, 223, 224);
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 140%;
+}
+.titulo-h4{
+    color:rgb(222, 223, 224);
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.parrafo-h4{
+    text-align: center;
+    color: #b7b8be;
+}
+.titulo-h6{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color:black;
+}
+.back-nosotros{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/david.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.titulo-h2 {
+    font-size: 160%;
+    color: rgb(222, 223, 224);
+    text-align: center;
+    padding: 30px;
+
+}
+.historia{
+    font-size: medium;
+    text-align: center;
+    color: #b7b8be;
+    margin-left:100px;
+    margin-right: 100px;
+}
+.noticia{
+    font-size: 160%;
+    color: rgb(222, 223, 224);
+    text-align: center;
+    padding: 30px;
+}
+.img-historia{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 300px) {
+    .img-historia {
+        display: flex;
+        justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+@media only screen and (min-width: 500px)  {
+    .elemento-padre{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;    
+    }
+}
+@media only screen and (min-width: 500px)  {
+    .elemento-padre2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;    
+    }
+}
+/*Fin del Main*/
+
+/*Inicio del Footer*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    padding: 100px 0 50px 0;
+    background-color: rgb(82, 81, 81);
+}
+.footer-link{
+    display: flex; 
+}
+.link{
+    width: 300px;
+}
+.link h3{
+    font-size: 18px;
+    color: #d6d6e2;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.link a{
+    font-size: 17px;
+    color: #b7b8be;
+    display: block;
+    margin-bottom: 20px;
+}
+.link a:hover {
+    color:rgb(68, 67, 67);
+}
+.socials{
+    display: flex;
+    margin-bottom: 15px;
+}
+.socials a {
+    display: inline-flex;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgb(68, 67, 67);
+    margin: 0 15px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#ffffff;
+    font-size:40px
+}
+.socials a:hover{
+    background-color: #ffffff;
+}
+hr {
+    border: 1px solid #5f5f6f;
+    margin: 35px 0;
+}
+.fotter-text{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text p {
+    font-size: 15px;
+    color: #b7b8be;
+}
+@media(max-width:991px) {
+    .footer{
+        padding: 30px;
+    }
+    .footer-link {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .socials {
+        justify-content: center;
+    }
+    .footer-text {
+        text-align: center;
+    }
+}

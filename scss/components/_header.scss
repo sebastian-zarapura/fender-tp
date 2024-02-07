@@ -1,0 +1,36 @@
+#logo{
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link{
+    color:rgb(222, 223, 224);
+    font-family: 'Archivo', sans-serif;
+}
+.nav-link:hover{
+    color:rgb(105, 104, 105);
+}
+.titulo-h1{
+    color:rgb(236, 31, 31);
+    font-size: 110%;
+    text-align: center;
+    margin:0;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner-fender2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d-item{
+    height: 500px; 
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+
+}
