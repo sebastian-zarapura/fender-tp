@@ -1,0 +1,109 @@
+main{
+    background-color: rgb(119, 119, 119);
+}
+
+.img-producto{
+    width: 20rem;
+}
+.elemento-padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-producto{
+    transition: all 500ms;
+
+}
+.card-producto:hover{
+    transform: scale(1.2);
+
+}
+.img-black{
+    width: 20rem;
+}
+.elemento-padre2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-h3 {
+    color:rgb(222, 223, 224);
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 140%;
+}
+.titulo-h4{
+    color:rgb(222, 223, 224);
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.parrafo-h4{
+    text-align: center;
+    color: #b7b8be;
+}
+.titulo-h6{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color:black;
+}
+.back-nosotros{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/david.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.titulo-h2 {
+    font-size: 160%;
+    color: rgb(222, 223, 224);
+    text-align: center;
+    padding: 30px;
+
+}
+.historia{
+    font-size: medium;
+    text-align: center;
+    color: #b7b8be;
+    margin-left:100px;
+    margin-right: 100px;
+}
+.noticia{
+    font-size: 160%;
+    color: rgb(222, 223, 224);
+    text-align: center;
+    padding: 30px;
+}
+.img-historia{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 300px) {
+    .img-historia {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width: 500px)  {
+    .elemento-padre{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;    
+    }
+}
+@media only screen and (min-width: 500px)  {
+    .elemento-padre2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;    
+    }
+}
